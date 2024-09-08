@@ -1,0 +1,140 @@
+.menu-bg {
+  background: rgba(249, 249, 249, 1);
+}
+.menu-item-bg {
+  background: rgba(255, 255, 255, 1);
+}
+.dropdown-item {
+  color: $secondary;
+}
+.dropdown-item-hover:hover {
+  background: $primary;
+  border-radius: 12px 12px 12px 12px;
+  color: #fff;
+}
+.program-relative:hover {
+  .program-menu {
+    display: block;
+  }
+  .program-menu:focus {
+    display: block;
+  }
+}
+.program-position {
+  top: 0%;
+  left: 105%;
+  margin-top: -216px;
+}
+.frontend-relative:hover {
+  .frontend-menu {
+    display: block;
+  }
+  .frontend-menu:focus {
+    display: block;
+  }
+}
+.frontend-position {
+  top: 0%;
+  left: 105%;
+  margin-top: -146px;
+}
+.course-title {
+  letter-spacing: 0.32;
+}
+.bell-radius {
+  border-radius: 12px 16px 12px 16px;
+}
+.bell-hover:hover {
+  background: #F9F9F9;
+}
+.hot-course-text {
+  font-size: 40px;
+}
+.d-web {
+  display: block;
+  @include phone() {
+    display: none;
+  }
+}
+.d-phone {
+  display: none;
+  @include phone() {
+    display: block;
+  }
+}
+.interest {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-size: 40px;
+  line-height: 48px;
+  padding: 32px 120px 32px 80px;
+  border-radius: 0px 100px 0px 100px;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+  @include phone() {
+    border-radius: 0px 0px 0px 0px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 16px, 24px, 16px, 24px;
+    width: 100%;
+  }
+}
+.swiper-slide-w {
+  width: 80%;
+  margin-left: 0px;
+  margin-right: 0px;
+  @include phone() {
+    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.course-hover {
+  background: $white;
+  color: $secondary;
+}
+.course-hover:hover {
+  background: $primary;
+  color: $white;;
+}
+.more-course {
+  @include phone() {
+    width: 100%;
+  }
+}
+.buy-px {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.swiper-buy-next {
+  border-radius: 12px 12px 12px 12px;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 16px);
+  left: calc(92% - 16px);
+  z-index: 10;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all .15s ease-in-out;
+}
+.swiper-buy-prev {
+  border-radius: 12px 12px 12px 12px;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 16px);
+  right: calc(92% - 16px);
+  z-index: 10;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  transition: all .15s ease-in-out;
+}
+.teacher-zindex-body {
+  z-index: 1;
+  margin-top: -60px;
+}
+.choose-shadows {
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.12);
+}
+.card-shadows {
+  box-shadow: 0px 25px 50px -12px rgba(0, 0, 0, 0.12);
+}

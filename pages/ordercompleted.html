@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>首頁 - 第八週作業 - 周周</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+    <section class="container py-sm-12 py-9">
+      <div class="d-flex flex-column align-items-center">
+        <div class="d-flex align-items-center justify-content-center mb-9" data-aos="fade-up">
+          <div class="check me-sm-9 me-4"></div>
+          <div>
+            <p class="fs-2 lh-1-2 fw-bold">恭喜，Jessica！</p>
+            <p class="fs-2 lh-1-2 fw-bold">您已購買完成</p>
+          </div>
+        </div>
+        <p class="fs-sm-6 fs-7 lh-base text-secondary fw-ligh mb-9" data-aos="fade-up">感謝您在 Learning 購買了課程，我們已將訂單相關資訊發送至您的電子信箱。</p>
+        <div class="d-flex flex-sm-row align-items-center flex-column" data-aos="fade-up">
+          <button type="button" class="btn btn-outline-primary me-sm-4 me-0 fs-6 lh-base fw-bold py-4 px-12 rounded-12 mb-sm-0 mb-4">立即前往上課</button>
+          <button type="button" class="btn btn-primary fs-6 lh-base fw-bold py-4 px-12 rounded-12">查看訂單記錄</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="d-flex align-items-center mb-6">
+          <div class="flower-five me-2"></div>
+          <h2 class="fs-sm-6 fs-5 lh-1-2 fw-bold">更多程式學習相關課程</h2>
+        </div>
+        <div class="swiper buy-mySwiper position-relative z-0 mb-sm-16 mb-14" data-aos="fade-left">
+          <div class="swiper-wrapper z-1">
+            <div class="swiper-slide">
+              <div class="card  position-relative card-shadows">
+                <a href="#" class="buy-course-two rounded-top"></a>
+                <div class="card-body  bg-white rounded-bottom">
+                  <span class="fs-7 lh-base fw-bold text-danger bg-warning py-2 px-3 rounded-100 position-absolute top-5 start-5 ">優限時 8 折 🔥</span>
+                  <div class="py-4 d-flex flex-column border-bottom border-1 border-success">
+                    <p class="card-title mb-4 fs-5 lh-1-2 fw-bold">小白也會！從零開始學習 Python 程式設計</p>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <div class="kelly-hsu-main me-3"></div>
+                        <p class="fs-6 lh-base fw-light text-secondary">Kelly Hsu</p>
+                      </div>
+                      <div class="d-flex flex-column align-items-end">
+                        <p class="fs-sm-5 lh-1-2 text-primary">NT$ 2,480</p>
+                        <p class="fs-7 lh-base text-light text-decoration-line-through">NT$ 3,200</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="py-4 px-4 d-flex justify-content-between  align-items-center">
+                    <div>
+                      <span class="py-1 px-3 bg-light fs-7 lh-base rounded-100">程式開發</span>
+                      <p class="fs-7 lh-base text-secondary fw-ligh mt-1">已有 420 位同學加入</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-star-fill text-star"></i>
+                      <span class="fs-7 lh-base text-star-text fw-noraml">4.0</span>
+                      <span class="fs-7 lh-base text-light fw-noraml">(333)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card  position-relative card-shadows">
+                <a href="#" class="buy-course-three rounded-top"></a>
+                <div class="card-body  bg-white rounded-bottom">
+                  <span class="fs-7 lh-base fw-bold text-danger bg-warning py-2 px-3 rounded-100 position-absolute top-5 start-5">優限時 8 折 🔥</span>
+                  <div class="py-4 d-flex flex-column border-bottom border-1 border-success">
+                    <p class="card-title mb-4 fs-5 lh-1-2 fw-bold">全面掌握 JavaScript 開發技術</p>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <div class="kelly-hsu-main me-3"></div>
+                        <p class="fs-6 lh-base fw-light text-secondary">Kelly Hsu</p>
+                      </div>
+                      <div class="d-flex flex-column align-items-end">
+                        <p class="fs-sm-5 lh-1-2 text-primary">NT$ 2,480</p>
+                        <p class="fs-7 lh-base text-light text-decoration-line-through">NT$ 3,200</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="py-4 px-4 d-flex justify-content-between  align-items-center">
+                    <div>
+                      <span class="py-1 px-3 bg-light fs-7 lh-base rounded-100">程式開發</span>
+                      <p class="fs-7 lh-base text-secondary fw-ligh mt-1">已有 420 位同學加入</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-star-fill text-star"></i>
+                      <span class="fs-7 lh-base text-star-text fw-noraml">4.0</span>
+                      <span class="fs-7 lh-base text-light fw-noraml">(333)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-shadows">
+                <a href="#" class="buy-course-four rounded-top"></a>
+                <div class="card-body  bg-white rounded-bottom">
+                  <div class="py-4 d-flex flex-column border-bottom border-1 border-success">
+                    <p class="card-title mb-4 fs-5 lh-1-2 fw-bold">HTML & CSS 網頁設計基礎教程</p>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <div class="kelly-hsu-main me-3"></div>
+                        <p class="fs-6 lh-base fw-light text-secondary">Kelly Hsu</p>
+                      </div>
+                      <div class="d-flex flex-column align-items-end">
+                        <p class="fs-sm-5 lh-1-2 text-primary">NT$ 2,480</p>
+                        <p class="fs-7 lh-base text-light text-decoration-line-through">NT$ 3,200</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="py-4 px-4 d-flex justify-content-between  align-items-center">
+                    <div>
+                      <span class="py-1 px-3 bg-light fs-7 lh-base rounded-100">程式開發</span>
+                      <p class="fs-7 lh-base text-secondary fw-ligh mt-1">已有 420 位同學加入</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-star-fill text-star"></i>
+                      <span class="fs-7 lh-base text-star-text fw-noraml">4.0</span>
+                      <span class="fs-7 lh-base text-light fw-noraml">(333)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card card-shadows">
+                <a href="#" class="buy-course-five rounded-top"></a>
+                <div class="card-body  bg-white rounded-bottom">
+                  <div class="py-4 d-flex flex-column border-bottom border-1 border-success">
+                    <p class="card-title mb-4 fs-5 lh-1-2 fw-bold">更進一步！深入學習 Node.js 與後端開發</p>
+                    <div class="d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center">
+                        <div class="kelly-hsu-main me-3"></div>
+                        <p class="fs-6 lh-base fw-light text-secondary">Kelly Hsu</p>
+                      </div>
+                      <div class="d-flex flex-column align-items-end">
+                        <p class="fs-sm-5 lh-1-2 text-primary">NT$ 2,480</p>
+                        <p class="fs-7 lh-base text-light text-decoration-line-through">NT$ 3,200</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="py-4 px-4 d-flex justify-content-between  align-items-center">
+                    <div>
+                      <span class="py-1 px-3 bg-light fs-7 lh-base rounded-100">程式開發</span>
+                      <p class="fs-7 lh-base text-secondary fw-ligh mt-1">已有 420 位同學加入</p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="bi bi-star-fill text-star"></i>
+                      <span class="fs-7 lh-base text-star-text fw-noraml">4.0</span>
+                      <span class="fs-7 lh-base text-light fw-noraml">(333)</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <%- include('./layout/footer'); -%>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>

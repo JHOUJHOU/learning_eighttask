@@ -1,0 +1,271 @@
+.header-logo{
+  background: url("/assets/images/logo.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 32px;
+  width: 200px;
+}
+.menu-couse-one {
+  background: url("/assets/images/course-5.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100px;
+  width: 100px;
+}
+.kelly-hsu {
+  background: url("/assets/images/avatar-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 32px;
+  width: 32px;
+}
+.footer-logo{
+  background: url("/assets/images/logo-white.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 32px;
+  width: 200px;
+}
+.hero-one {
+  background: url("/assets/images/hero-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+  width: 100%;
+  border-radius: 80px 80px 80px 80px;
+  @include phone() {
+    border-radius: 0px 0px 0px 0px;
+    height: 375px;
+  }
+}
+.hero-two {
+  background: url("/assets/images/hero-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+  width: 100%;
+  border-radius: 80px 80px 80px 80px;
+  @include phone() {
+    border-radius: 0px 0px 0px 0px;
+    height: 375px;
+  }
+}
+.hero-three {
+  background: url("/assets/images/hero-3.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 800px;
+  width: 100%;
+  border-radius: 80px 80px 80px 80px;
+  @include phone() {
+    border-radius: 0px 0px 0px 0px;
+    height: 375px;
+  }
+}
+.main-course-one{
+  background: url("/assets/images/course-4.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 272px;
+}
+.main-course-two{
+  background: url("/assets/images/course-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 272px;
+}
+.main-course-three{
+  background: url("/assets/images/course-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 272px;
+}
+.main-course-four{
+  background: url("/assets/images/course-3.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 272px;
+}
+.kelly-hsu-main {
+  background: url("/assets/images/avatar-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 44px;
+  width: 44px;
+}
+.k-Dee {
+  background: url("/assets/images/avatar-4.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 44px;
+  width: 44px;
+}
+.mikeeee {
+  background: url("/assets/images/avatar-3.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 44px;
+  width: 44px;
+}
+.flowers-course {
+  background: url("/assets/images/flower-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 560px;
+  width: 560px;
+  z-index: -1;
+  position: absolute;
+  top: 0%;
+  left: -10%;
+  @include phone() {
+    height: 200px;
+    width: 200px;
+    left: -30%;
+  }
+}
+.flowers-one {
+  background: url("/assets/images/flower-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: calc(17% - 16px);
+  right: calc(64% - 16px);
+  z-index: -1;
+  @include phone() {
+    right: calc(90% - 16px);
+  }
+}
+.bg-buy {
+  background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(240, 246, 255, 1));
+}
+.buy-course-one{
+  background: url("/assets/images/course-4.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+
+}
+.buy-course-two{
+  background: url("/assets/images/course-5.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+}
+.buy-course-three{
+  background: url("/assets/images/course-6.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+}
+.buy-course-four{
+  background: url("/assets/images/course-7.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+}
+.buy-course-five{
+  background: url("/assets/images/course-8.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 200px;
+}
+.flower-three{
+  background: url("/assets/images/flower-3.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 480px;
+  width: 480px;
+  position: absolute;
+  top: 30%;
+  left: -10%;
+  z-index: -1;
+}
+.polygon-one {
+  background: url("/assets/images/polygon-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80px;
+  width: 80px;
+}
+.line-two {
+  background: url("/assets/images/line-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 94px;
+  width: 438px;
+  @include phone() {
+    width: 319px;
+  }
+}
+.flower-teacher-one {
+  background: url("/assets/images/flower-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: calc(15% - 16px);
+  right: calc(60% - 16px);
+  z-index: -1;
+  @include phone() {
+    right: calc(90% - 16px);
+  }
+}
+.line-one {
+  background: url("/assets/images/line-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 452px;
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  z-index: -1;
+}
+.teacher-one {
+  background: url("/assets/images/teacher-3.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 336px;
+}
+.teacher-two {
+  background: url("/assets/images/teacher-1.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 336px;
+}
+.teacher-three {
+  background: url("/assets/images/teacher-2.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 400px;
+  width: 336px;
+}
+.check {
+  background: url("/assets/images/check-sm.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 56px;
+  width: 56px;
+  @include phone() {
+    background: url("/assets/images/check.png") no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 32px;
+    width: 32px;
+  }
+}
+.flower-five {
+  background: url("/assets/images/flower-5.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 24px;
+  width: 24px;
+  @include phone() {
+    height: 16px;
+    width: 16px;
+  }
+}
